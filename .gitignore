@@ -1,0 +1,15 @@
+# Zig
+zig-cache/
+zig-out/
+.zig-cache/
+
+# Go
+test-tool/test-tool
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX
+.fseventsd
