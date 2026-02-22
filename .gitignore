@@ -5,6 +5,11 @@ zig-out/
 
 # Go
 test-tool/test-tool
+test-tool/ndjson-gen
+
+# Trace files
+Trace-*.json
+Trace-*.json.gz
 
 # macOS
 .DS_Store
