@@ -1,0 +1,16 @@
+{
+  "lines": 10000,
+  "keys": [
+    {"name": "id", "type": "uuid"},
+    {"name": "timestamp", "type": "timestamp", "start": "2024-01-01T00:00:00Z", "interval": "100ms"},
+    {"name": "level", "type": "enum", "values": ["info", "info", "info", "warn", "error", "debug"]},
+    {"name": "service", "type": "enum", "values": ["api-gateway", "auth-service", "user-service", "billing"]},
+    {"name": "method", "type": "enum", "values": ["GET", "POST", "PUT", "DELETE"]},
+    {"name": "path", "type": "enum", "values": ["/api/users", "/api/orders", "/api/auth/login", "/api/health"]},
+    {"name": "status_code", "type": "integer", "min": 200, "max": 599},
+    {"name": "duration_ms", "type": "float", "min": 0.5, "max": 5000.0, "precision": 1},
+    {"name": "request_id", "type": "uuid"},
+    {"name": "success", "type": "boolean"},
+    {"name": "message", "type": "string", "length": 32}
+  ]
+}
